@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.react-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.First-div , .Second-div , .Third-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 50%;
+}
